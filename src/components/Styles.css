@@ -1,0 +1,26 @@
+
+/* Adding styles component for Breakout / Snake Games */ 
+
+.main-container { 
+   text-align: center;
+}
+
+.main-container{
+    display: flex;
+}
+.left-container{
+    flex-basis: 10%;
+}
+.right-container{
+    flex-basis: 90%;
+    background-color: rgb(255, 255, 255);
+    color: magenta;
+}
+.right-container-container{
+    display: flex;
+    flex-direction: row;
+}
+.right-main-item {
+    flex: 1;
+
+}
